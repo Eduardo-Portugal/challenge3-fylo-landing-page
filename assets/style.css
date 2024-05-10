@@ -13,10 +13,12 @@ body {
     font-weight: 400;
     font-style: normal;
     font-size: 16px;
+    color: #30313e;
 }
 h1 {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
+    color: #000831;
 }
 .container {
     width: 1140px;
@@ -37,7 +39,52 @@ header {
 }
 .header-area .right-side nav ul li a {
     margin-right: 60px; 
+    color: #30313e;
 }
 .header-area .right-side nav ul li a:hover {
    text-decoration: underline;
+}
+
+/*SECTION ACCESSIBLE ANYWHERE*/
+.accessible-anywhere .accessible-area {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 90px;
+}
+.accessible-anywhere .accessible-area .leftside {
+    flex: 1;
+}
+.accessible-anywhere .accessible-area .leftside .leftside-title h1 {
+    font-size: 38px;
+    line-height: 58px;
+    font-weight: 700;
+}
+.accessible-anywhere .accessible-area .leftside .leftside-info p {
+    margin: 20px 0px;
+    font-size: 18px;
+}
+.accessible-anywhere .accessible-area .leftside .leftside-buttons  {
+    display: flex;
+    align-items: center;
+}
+.accessible-anywhere .accessible-area .leftside .leftside-buttons form input  {
+    width: 280px;
+    padding: 10px 10px;
+    outline: 0;
+    margin-right: 10px;
+}
+.accessible-anywhere .accessible-area .leftside .leftside-buttons form button {
+    padding: 12px 64px;
+    background-color: #1e64f3;
+    color: #fff;
+    border: 0px;
+    cursor: pointer;
+}
+.accessible-anywhere .accessible-area .rightside {
+    flex: 1;
+}
+.accessible-anywhere .accessible-area .rightside img {
+    width: 100%;
+    max-width: 600px;
 }
