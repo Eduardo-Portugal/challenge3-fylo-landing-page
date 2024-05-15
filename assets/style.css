@@ -19,6 +19,8 @@ h1 {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     color: #000831;
+    font-size: 38px;
+    line-height: 58px;
 }
 .container {
     width: 1140px;
@@ -55,11 +57,6 @@ header {
 .accessible-anywhere .accessible-area .leftside {
     flex: 1;
 }
-.accessible-anywhere .accessible-area .leftside .leftside-title h1 {
-    font-size: 38px;
-    line-height: 58px;
-    font-weight: 700;
-}
 .accessible-anywhere .accessible-area .leftside .leftside-info p {
     margin: 20px 0px;
     font-size: 18px;
@@ -87,4 +84,82 @@ header {
 .accessible-anywhere .accessible-area .rightside img {
     width: 100%;
     max-width: 600px;
+}
+
+/*SECTION STAY PRODUCTIVE*/
+.stay-productive {
+    margin-top: 130px;
+}
+.productive-bg {
+    padding: 40px 0px;
+    margin-top: -4px;
+    background-color: #f9f8fe;
+}
+.stay-productive .curve-img {
+    overflow-x: hidden;
+}
+.productive-area {
+    display: flex;
+    align-items: center;
+}
+.productive-area .rightside {
+    flex: 2;
+}
+.productive-area .rightside .right-title {
+    margin-bottom: 30px;
+}
+.productive-area .rightside .right-info p {
+    margin-bottom: 12px;
+    line-height: 23px;
+}
+
+.productive-area .rightside .right-info .right-link--area {
+    display: inline-flex;
+    align-items: center;
+    border-bottom: 2px solid #668a86;
+    margin-bottom: 40px;
+}
+.productive-area .rightside .right-info .right-link--area a {
+    color: #86a39f;
+}
+.productive-area .rightside .right-info .right-link--area img {
+    height: 25px;
+    width: 25px;
+    margin-top: 6px;
+}
+.productive-area .leftside {
+    flex: 1;
+}
+.productive-area .leftside img {
+    width: 100%;
+    max-width: 600px;
+}
+.productive-area .rightside  .productive-box--area {
+    background-color: #fff;
+    padding: 20px 20px;
+    max-width: 350px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 6px #a8a8a8;
+}
+.productive-area .rightside  .productive-box--area .box-info p {
+   font-size: 15px;
+   line-height: 24px;
+   margin: 20px 0px;
+}
+.productive-area .rightside  .productive-box--area .ceo-area {
+    display: flex;
+    align-items: center;
+}
+.productive-area .rightside  .productive-box--area .ceo-img img {
+    width: 62px;
+    height: 62px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.productive-area .rightside  .productive-box--area .ceo-info h5{
+    color: #000831;
+}
+.productive-area .rightside  .productive-box--area .ceo-info p{
+    font-size: 10px;
+    color: #262731;;
 }
