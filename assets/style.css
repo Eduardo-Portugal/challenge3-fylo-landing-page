@@ -101,6 +101,7 @@ header {
 .productive-area {
     display: flex;
     align-items: center;
+    padding-bottom: 80px;
 }
 .productive-area .rightside {
     flex: 2;
@@ -163,3 +164,45 @@ header {
     font-size: 10px;
     color: #262731;;
 }
+
+/*SECTION GET EARLY ACCESS*/
+.get-access {
+    padding: 100px 0px;
+    background-color: #4d527d;
+    color: #fff;
+}
+.get-access--area {
+    display: flex;
+    justify-content: space-between;
+}
+.get-access--area .rightside {
+    max-width: 480px;
+}
+.get-access--area h1 {
+    color: #fff;
+    margin-bottom: 15px;
+    font-size: 30px;
+}
+.get-access--area p {
+    line-height: 24px;
+}
+.get-started--buttons form {
+    display: flex;
+    flex-direction: column;
+}
+.get-started--buttons form input {
+    width: 400px;
+    padding: 15px 10px;
+    outline: 0;
+    margin-right: 10px;
+    margin-bottom: 15px;
+}
+.get-started--buttons form button {
+    font-size: 13px;
+    width: 200px;
+    padding: 17px 30px;
+    background-color: #1e64f3;
+    color: #fff;
+    border: 0px;
+    cursor: pointer;
+} 
